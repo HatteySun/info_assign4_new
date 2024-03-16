@@ -1,9 +1,7 @@
-// import XAxis from './XAxis';
-// import YAxis from './YAxis';
-// import Points from './Points';
-import xAxis from './xAxis';
-import yAxis from './yAxis';
-import points from './points';
+import XAxis from './XAxis';
+import YAxis from './YAxis';
+import Points from './Points';
+
 
 // function ScatterPlot(props){
 //     const { offsetX, offsetY, data, xScale, yScale, height, width } = props;
@@ -21,12 +19,12 @@ function ScatterPlot(props){
     // console.log("scatter plot is called.")
     return (
         <g transform={`translate(${offsetX},${offsetY})`}>
-            <points data={data} xScale={xScale} yScale={yScale} height={height} width={width} hoveredStation={hoveredStation} 
+            <Points data={data} xScale={xScale} yScale={yScale} height={height} width={width} hoveredStation={hoveredStation} 
                 setHoveredStation={setHoveredStation} setTooltipContent={setTooltipContent}
                 setTooltipX={setTooltipX}
                 setTooltipY={setTooltipY}/>
-            <yAxis yScale={yScale} height={height} axisLabel={"Trip duration end in"}/>
-            <xAxis xScale={xScale} height={height} width={width} axisLabel={"Trip duration start from"}/>
+            <YAxis yScale={yScale} height={height} axisLabel={"Trip duration end in"}/>
+            <XAxis xScale={xScale} height={height} width={width} axisLabel={"Trip duration start from"}/>
         </g>
     );
 }
