@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
+            Get started by input assignment4 student&nbsp;
             <code className={styles.code}>src/pages/index.js</code>
           </p>
           <div>
@@ -112,3 +112,6 @@ export default function Home() {
     </>
   );
 }
+// pages/index.jss
+
+
