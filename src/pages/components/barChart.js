@@ -11,9 +11,9 @@
 // }
 
 import React from 'react';
-import Bars from './Bars'; 
-import XAxis from './XAxis'; 
-import YAxis from './YAxis'; 
+import Bars from './bars'; 
+import XAxis from './xAxis'; 
+import YAxis from './yAxis'; 
 
 function BarChart(props){
     const { offsetX, offsetY, data, xScale, yScale, height, width, hoveredStation, setHoveredStation } = props;

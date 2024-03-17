@@ -1,6 +1,6 @@
-import XAxis from './XAxis';
-import YAxis from './YAxis';
-import Points from './Points';
+import XAxis from './xAxis';
+import YAxis from './yAxis';
+import Points from './points';
 
 
 // function ScatterPlot(props){
